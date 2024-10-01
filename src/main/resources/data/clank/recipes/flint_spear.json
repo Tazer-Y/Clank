@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  F",
+    " / ",
+    "/  "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "clank:flint_spear"
+  }
+}

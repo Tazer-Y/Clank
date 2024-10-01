@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.tazer.clank.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "clank.refmap.json",
+  "mixins": [
+    "dev.tazer.clank.common.mixin.DashEnchantmentMixin",
+    "dev.tazer.clank.common.mixin.EnchantmentHelperMixin",
+    "dev.tazer.clank.common.mixin.SpearItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
