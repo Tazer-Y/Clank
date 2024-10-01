@@ -1,13 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.tazer.clank.mixin",
+  "package": "dev.tazer.clank.common.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "clank.refmap.json",
   "mixins": [
-    "dev.tazer.clank.common.mixin.DashEnchantmentMixin",
-    "dev.tazer.clank.common.mixin.EnchantmentHelperMixin",
-    "dev.tazer.clank.common.mixin.SpearItemMixin"
+    "DashEnchantmentMixin",
+    "EnchantmentHelperMixin",
+    "SpearItemMixin"
   ],
   "client": [
   ],
